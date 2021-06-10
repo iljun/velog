@@ -27,3 +27,4 @@ kubernetes를 사용할때 기본적으로 4가지의 namespace가 제공된다.
 - kube-node-lease
   - scaling을 할 때 Node의 heartbeat의 성능을 향상 시키는 Node와 관련있는 Object들이 위치한다.
   
+#### Namespace를 삭제하게 되면 삭제하는 Namespace에 속한 Object는 모두 삭제된다.
